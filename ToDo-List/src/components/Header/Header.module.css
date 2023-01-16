@@ -1,0 +1,17 @@
+.header{
+  background-color: var(--gray-700);
+  height: 20rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo{
+  height: 3.6rem;
+}
+
+.todo{
+  height: 4rem;
+  margin-left: 1.2rem;
+
+}
