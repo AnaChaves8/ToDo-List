@@ -60,9 +60,9 @@ export function CreateTask() {
             <CardTask
               key={task.id}
               title={task.title}
-              done ={task.done}
+              done={task.done}
               onDelete={() => handleDeleteTask(task.id)}
-              onMarkAsCompleted={() => handleMarkAsCompleted(task.id)} 
+              onMarkAsCompleted={() => handleMarkAsCompleted(task.id)}
             />
           ))
         )}

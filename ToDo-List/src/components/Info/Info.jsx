@@ -1,7 +1,6 @@
-import styles from './Info.module.css'
+import styles from "./Info.module.css";
 
-export function Info({counter, completedTask}) {
-  
+export function Info({ counter, completedTask }) {
   return (
     <div className={styles.info}>
       <div className={styles.createdBox}>
@@ -15,7 +14,6 @@ export function Info({counter, completedTask}) {
           <p>de</p>
           <p>{counter}</p>
         </div>
-        
       </div>
     </div>
   );
