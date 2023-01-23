@@ -1,5 +1,5 @@
-import styles from './Empty.module.css'
-import Clipboard from '../../assets/Clipboard.svg'
+import styles from "./Empty.module.css";
+import Clipboard from "../../assets/Clipboard.svg";
 
 export function Empty() {
   return (
